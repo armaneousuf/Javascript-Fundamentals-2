@@ -3,11 +3,11 @@
 // and print the updated array.
 //
 // Input:
-// const arr2D = [
-//   [1, 2],
-//   [3, 4],
-//   [5, 6]
-// ];
+const arr2D = [
+  [1, 2],
+  [3, 4],
+  [5, 6]
+];
 //
 // Expected Output:
 // [
@@ -15,13 +15,6 @@
 //   [99, 4],
 //   [5, 6]
 // ]
-
-
-const arr2D = [
-    [1, 2],
-    [3, 4],
-    [5, 6]
-];
 
 arr2D[1][0] = 99;
 console.log(arr2D);

@@ -2,12 +2,10 @@
 // Use a for...of loop to concatenate all the elements of an array into a single string.
 //
 // Input:
-// const words = ['Tom', 'Tim', 'Tin', 'Tik'];
+const words = ['Tom', 'Tim', 'Tin', 'Tik'];
 //
 // Expected Output:
 // 'TomTimTinTik'
-
-const words = ["Tom", "Tim", "Tin", "Tik"];
 
 let result = "";
 for (const word of words) {

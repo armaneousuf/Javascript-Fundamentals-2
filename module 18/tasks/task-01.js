@@ -2,12 +2,10 @@
 // Write JavaScript code to reverse the array colors WITHOUT using the reverse() method.
 //
 // Input:
-// const colors = ['red', 'blue', 'green', 'yellow', 'orange']
+const colors = ['red', 'blue', 'green', 'yellow', 'orange']
 //
 // Expected Output:
 // ['orange', 'yellow', 'green', 'blue', 'red']
-
-const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
 
 const reversed = [];
 
