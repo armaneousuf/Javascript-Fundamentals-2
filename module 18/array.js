@@ -5,7 +5,6 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 
-// 
 const fruits = ['Banana', 'Mango', 'Jakefruit', 'Guava', 'Apple'];
  
 
