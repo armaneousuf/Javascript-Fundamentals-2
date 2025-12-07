@@ -15,3 +15,4 @@ for (const num of numbers) {
 
 console.log(sum);
 
+console.log('hello world');
