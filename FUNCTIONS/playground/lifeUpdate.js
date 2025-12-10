@@ -10,7 +10,7 @@ function life(mood) {
     }
 }
 
-console.log(life('sad'));
+// console.log(life('sad'));
 
 
 function friends(respect) {
