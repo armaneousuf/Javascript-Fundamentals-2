@@ -1,5 +1,3 @@
-
-
 function life(mood) {
     if (mood === 'happy') {
         return "life is fun";
@@ -10,8 +8,9 @@ function life(mood) {
     }
 }
 
-// console.log(life('sad'));
+console.log(life('sad'));
 
+console.log('-----------------------');
 
 function friends(respect) {
     if (respect === true) {
