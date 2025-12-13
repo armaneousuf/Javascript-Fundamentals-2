@@ -13,4 +13,16 @@ find = 25
 Output: 0
 */
 
-const numbers = [5, 6, 11, 12, 98, 5];
+
+function countRepetedNums(numbers, find) {
+    let count = 0;
+    for (const number of numbers) {
+        if (number === find) {
+            count++;
+        }
+    }
+    return count;
+}
+
+const originialNumbers = [5, 6, 11, 12, 98, 5];
+console.log(countRepetedNums(originialNumbers, 5));

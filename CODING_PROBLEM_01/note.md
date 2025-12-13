@@ -11,3 +11,7 @@ if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
 ---
 > remove duplicate items from an array
 > use `includes(item) === false` to get the items once
+---
+
+> the formula to generate random number between two numbers are `Math.floor(Math.random() * (max - min + 1) + min)`
+> have to take two parameters and set two arguments.
