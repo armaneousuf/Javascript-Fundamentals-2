@@ -1,10 +1,13 @@
 function nikahCalculation(mahr, walima, miscellaneous) {
-  const totalMahr = mahr;
-  const totalWalima = walima * 350;
-  const totalmiscellaneous = miscellaneous;
-
-  const totalNikahCost = totalMahr + totalWalima + totalmiscellaneous;
-  return totalNikahCost;
+  const obj = {
+    totalMahr: mahr,
+    totalWalima: walima * 400,
+    totalmiscellaneous: miscellaneous
+  }
+  const total = obj.totalMahr + obj.totalWalima + obj.totalmiscellaneous;
+  return {
+    obj,
+    total,
+  };
 }
-
 console.log(nikahCalculation(120000, 50, 50000));
