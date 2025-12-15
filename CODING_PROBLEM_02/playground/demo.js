@@ -1,6 +1,6 @@
 function toGetMoney(age) {
     if (age > 18) {
-        return 'আপনি ৫০ টাকা পাবে'
+        return 'আপনি ৫০ টাকা পাবেন'
     }
     else if (age === 11) {
         return 'ভাগ এখান থেকে'

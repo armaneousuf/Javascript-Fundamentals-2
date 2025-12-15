@@ -23,3 +23,5 @@ function smallestInLength(friends) {
 
 const friends = ['rahim', 'robin', 'rafi', 'ron', 'rashed'];
 console.log(smallestInLength(friends));
+
+// ভাগ্নী (3-4 years) injected her own unique syntex, and keywords while I was AFK

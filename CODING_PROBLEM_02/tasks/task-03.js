@@ -14,3 +14,10 @@ Goal:
 Write a function named calculateElectronicsBudget that returns the total cost.
 */
 
+function calculateElectronicsBudget(laptops, tablets, mobiles) {
+  const laptop = 35000;
+  const tablet = 15000;
+  const mobile = 20000;
+    return ((laptop * laptops) + (tablet * tablets) + (mobile * mobiles));
+}
+console.log(calculateElectronicsBudget(1, 2, 3));
