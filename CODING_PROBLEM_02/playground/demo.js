@@ -10,4 +10,4 @@ function toGetMoney(age) {
     }
 }
 
-console.log(toGetMoney(14));
+console.log(toGetMoney(51));
